@@ -12,4 +12,4 @@ mkdir /etc/vsftpd
 mv /etc/vsftpd.conf /etc/vsftpd
 echo $username > /etc/vsftpd/vsftpd.chroot_list
 systemctl daemon-reload
-systemctl restart nginx vsftpd
+systemctl restart vsftpd
